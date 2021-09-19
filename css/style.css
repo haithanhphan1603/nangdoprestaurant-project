@@ -622,6 +622,10 @@
   display: block;
   margin-bottom: 1rem;
 }
+.footer-logo .logo {
+  width: 80%;
+  height: 10rem;
+}
 
 .social-links {
   list-style: none;
