@@ -15,7 +15,7 @@
 }
 
 .logo {
-  height: 18rem;
+  height: 7.2rem;
 }
 
 /**************************/
@@ -621,9 +621,6 @@
 .footer-logo {
   display: block;
   margin-bottom: 1rem;
-}
-.footer-logo .logo {
-  height: 10rem;
 }
 
 .social-links {
