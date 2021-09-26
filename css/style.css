@@ -12,10 +12,18 @@
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
+  background-color: rgba(255, 255, 255, 0.97);
 }
 
 .logo {
   height: 7.2rem;
+}
+.restaurant-icon {
+  font-family: "Bonheur Royale", sans-serif;
+  font-size: 5rem;
+  text-decoration: none;
+  color: #ff6b6b;
+  font-weight: 700;
 }
 
 /**************************/
@@ -37,6 +45,7 @@
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
+  text-transform: uppercase;
 }
 
 .main-nav-link:hover,
@@ -287,14 +296,17 @@
   font-weight: 600;
 }
 
-.tag--salmon {
+.tag--duck {
   background-color: #faa2c1;
 }
 .tag--vegan {
   background-color: #94d82d;
 }
-.tag--paleo {
+.tag--fish {
   background-color: #ffd43b;
+}
+.tag--beef {
+  background-color: #f08c00;
 }
 
 .meal-title {
@@ -326,6 +338,7 @@
 
 .meal-img {
   width: 100%;
+  height: 45%;
 }
 
 .all-recipes {
@@ -408,109 +421,7 @@
 /* MEALS SECTION */
 /**************************/
 
-.section-pricing {
-  padding: 9.6rem 0;
-}
-
-.pricing-plan {
-  border-radius: 11px;
-
-  width: 75%;
-}
-
-.pricing-plan--starter {
-  justify-self: end;
-  border: 2px solid #fff4f4;
-  padding: 4.6rem;
-}
-
-.pricing-plan--complete {
-  background-color: #fff4f4;
-  padding: 4.8rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.pricing-plan--complete::after {
-  content: "Best value";
-  position: absolute;
-  top: 6%;
-  right: -18%;
-
-  text-transform: uppercase;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #333;
-  background-color: #ff8787;
-  padding: 0.8rem 8rem;
-  transform: rotate(45deg);
-}
-
-.plan-header {
-  text-align: center;
-  margin-bottom: 4.8rem;
-}
-
-.plan-name {
-  color: #ff8787;
-  font-weight: 600;
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.75;
-  margin-bottom: 3.2rem;
-}
-
-.plan-price {
-  font-size: 6.2rem;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 1.6rem;
-}
-
-.plan-price span {
-  font-size: 3rem;
-  font-weight: 500;
-  margin-right: 0.8rem;
-}
-
-.plan-text {
-  font-size: 1.6rem;
-  line-height: 1.6;
-  color: #6f6f6f;
-}
-
-.plan-sing-up {
-  text-align: center;
-  margin-top: 4.8rem;
-}
-
-.plan-details {
-  font-size: 1.6rem;
-  line-height: 1.6;
-  text-align: center;
-}
-
-.feature-icon {
-  color: #ff6b6b;
-  height: 3.2rem;
-  width: 3.2rem;
-  background-color: #fff4f4;
-  margin-bottom: 3.2rem;
-  padding: 1.6rem;
-  border-radius: 50%;
-}
-
-.feature-title {
-  font-size: 2.4rem;
-  color: #333;
-  font-weight: 700;
-  margin-bottom: 1.6rem;
-}
-
-.feature-text {
-  font-size: 1.8rem;
-  line-height: 1.8;
-}
+.
 
 /**************************/
 /* CTA SECTION */
@@ -608,7 +519,9 @@
   padding: 12.8rem 0;
   border-top: 1px solid #eee;
 }
-
+.footer .restaurant-icon {
+  margin-bottom: 2rem;
+}
 .grid--footer {
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
@@ -679,4 +592,91 @@
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+}
+/**************************/
+/* FOOTER */
+/**************************/
+.section-location {
+  color: #333;
+  text-align: center;
+  height: 100vh;
+  border-top: 2px solid #fff4f4;
+
+  padding: 4.8rem 0;
+}
+.section-location .address {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-decoration: underline;
+  color: #333;
+}
+.section-location .heading-secondary {
+  margin-bottom: 3.6rem;
+}
+.section-location .time-text {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+.location-img {
+  content: "";
+  height: 70vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 227, 227, 0.35),
+      rgb(255, 245, 245, 0.35)
+    ),
+    url("../img/map.png");
+  background-size: cover;
+}
+
+.section-location .address:hover,
+.section-location .address:active {
+  color: #555;
+}
+
+/**************************/
+/* MENU */
+/**************************/
+.section-menu {
+  padding: 9.6rem 0;
+}
+.main-menu {
+  border: 2px solid rgb(255, 107, 107);
+  padding: 4.8rem;
+}
+.menu-list-title {
+  color: #ff8787;
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+.item {
+  border-bottom: 1px dotted #c5c5c5;
+  break-inside: avoid;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+.menu {
+  row-gap: 2rem;
+  margin-bottom: 0;
+}
+
+.section-menu .heading-secondary {
+  margin-bottom: 4.8rem;
+}
+.bird-meal .menu-list-title {
+  margin-top: 2.4rem;
+}
+.price {
+  color: #fff;
+  background-color: #616161;
+  border-radius: 4px;
+  padding: 0 8px;
+}
+.menu-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
 }

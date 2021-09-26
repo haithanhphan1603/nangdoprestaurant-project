@@ -15,11 +15,11 @@
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
@@ -39,23 +39,23 @@
     ></script>
     <script defer src="js/script.js"></script>
 
-    <title>Sushiahihi &mdash; Serve great meals!</title>
+    <title>Nhà hàng Nàng Đốp &mdash; Ăn là mê!</title>
   </head>
   <body>
     <header class="header">
-      <a href="#">
-        <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+      <a href="#" class="restaurant-icon">
+        Nàng Đốp
       </a>
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#how">How it works</a></li>
-          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li><a class="main-nav-link" href="#how">Giới thiệu</a></li>
+          <li><a class="main-nav-link" href="#meals">Món ăn</a></li>
           <li>
-            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+            <a class="main-nav-link" href="#testimonials">Tín nhiệm</a>
           </li>
-          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+          <li><a class="main-nav-link" href="#menu">Thực Đơn</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Đặt bàn</a></li>
         </ul>
       </nav>
 
@@ -70,7 +70,7 @@
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
-              A balanced diet is a sushi roll in each hand.
+          Ăn là mê – chê không tính tiền
             </h1>
             <p class="hero-description">
            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eius illum neque eos eligendi ut delectus ipsam hic possimus, similique non minima ea nam odio iure officiis? Minus, tempora saepe?
@@ -132,7 +132,7 @@
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
-            Your sushi is carefully made of the best recipes.
+            Chúng tôi đảm bảo bữa ăn của bạn được phục vụ bằng những nhiên liệu tốt nhất.
           </h2>
         </div>
 
@@ -141,7 +141,7 @@
           <div class="step-text-box">
             <p class="step-number">01</p>
             <h3 class="heading-tertiary">
-              Excellent seafood species
+              Thịt cá hảo hạn
             </h3>
             <p class="step-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ducimus, id nobis perspiciatis harum dolores nemo eaque. Eum, magnam. Voluptatum non itaque ut amet porro consequuntur ea nulla iste impedit!
@@ -168,7 +168,7 @@
           </div>
           <div class="step-text-box">
             <p class="step-number">02</p>
-            <h3 class="heading-tertiary">Carefully selected vegetables</h3>
+            <h3 class="heading-tertiary">Rau củ được chọn lọc kĩ lưỡng</h3>
             <p class="step-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aliquam tempora quod, architecto eaque labore sapiente deleniti dolor ipsam, ex blanditiis quo doloribus reprehenderit dolorem obcaecati assumenda accusamus laboriosam est!
             </p>
@@ -177,7 +177,7 @@
           <!-- STEP 03 -->
           <div class="step-text-box">
             <p class="step-number">03</p>
-            <h3 class="heading-tertiary">Hundreds of standard Japanese Sushi recipes</h3>
+            <h3 class="heading-tertiary">Những công thức chế biến chuẩn Việt</h3>
             <p class="step-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eum saepe quae laboriosam error harum optio blanditiis. Quae, voluptates neque fuga dolorum, magni itaque quidem repellat iste placeat tempore officia!
             </p>
@@ -197,22 +197,24 @@
         <div class="container center-text">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
-             Sushiahihi AI chooses from 5,000+ recipes
+             Nhà hàng chúng tôi phục vụ hơn 50+ món
           </h2>
         </div>
-
+        <div class="container">
+        <h3 class="heading-tertiary">Những món tiêu biểu:</h3>
+        </div>
         <div class="container grid grid--3-cols margin-bottom-md">
           <div class="meal">
             <img
-              src="img/meals/meal-1.jpg"
+              src="img/meals/meal-1.jpeg"
               class="meal-img"
               alt="Japanese Gyozas"
             />
             <div class="meal-content">
               <div class="meal-tags">
-                <span class="tag tag--salmon">Salmon</span>
+                <span class="tag tag--beef">Thịt trâu</span>
               </div>
-              <p class="meal-title">Salmon Sashimi</p>
+              <p class="meal-title">Trâu nướng tảng</p>
               <ul class="meal-attributes">
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
@@ -235,16 +237,16 @@
 
           <div class="meal">
             <img
-              src="img/meals/meal-2.jpg"
+              src="img/meals/meal-2.webp"
               class="meal-img"
               alt="Avocado Salad"
             />
             <div class="meal-content">
               <div class="meal-tags">
-                <span class="tag tag--vegan">Vegan</span>
-                <span class="tag tag--paleo">Paleo</span>
+                <span class="tag tag--vegan">Rau</span>
+                <span class="tag tag--fish">cá</span>
               </div>
-              <p class="meal-title">Avocado Salad</p>
+              <p class="meal-title">Cá chép nướng giòn</p>
               <ul class="meal-attributes">
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
@@ -266,13 +268,13 @@
           </div>
 
           <div class="meal meal-best-seller">
-                    <img src="img/meals/meal-3.jpg" class="meal-img" alt="fusion sushi" />
+                    <img src="img/meals/meal-3.jpeg" class="meal-img" alt="fusion sushi" />
                     <div class="meal-content">
                       <div class="meal-tags">
-                        <span class="tag tag--vegan">Vegan</span>
-                        <span class="tag tag--salmon">Salmon</span>
+                        <span class="tag tag--vegan">Rau</span>
+                        <span class="tag tag--duck">Thịt vịt</span>
                       </div>
-                      <p class="meal-title">Fusion Sushi</p>
+                      <p class="meal-title">Vịt trời hấp xôi</p>
                       <ul class="meal-attributes">
                         <li class="meal-attribute">
                           <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
@@ -293,7 +295,7 @@
           
         </div>
         <div class="diets container">
-          <h3 class="heading-tertiary">Works with any diet:</h3>
+          <h3 class="heading-tertiary">Phù hợp mọi chế độ ăn kiêng:</h3>
           <ul class="list">
             <li class="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
@@ -333,14 +335,14 @@
         </div>
 
         <div class="container all-recipes">
-          <a href="#" class="link">See all recipes &rarr;</a>
+          <a href="#" class="link">Xem tất cả các món &rarr;</a>
         </div>
       </section>
 
       <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
-          <h2 class="heading-secondary">Once you try it, you can't go back</h2>
+          <h2 class="heading-secondary">Ăn là sẽ nhớ – nhớ rồi sẽ tới ăn</h2>
 
           <div class="testimonials">
             <figure class="testimonial">
@@ -486,121 +488,136 @@
         </div>
       </section>
 
-      <section class="section-pricing" id="pricing">
-        <div class="container">
-          <span class="subheading">Pricing</span>
-          <h2 class="heading-secondary">
-            Eating well without breaking the bank
+
+      <section class="section-menu container" id="menu">
+        <div class="main-menu">
+          <span class="subheading center-text">Menu</span>
+          <h2 class="heading-secondary center-text">
+            Thực đơn
           </h2>
-        </div>
-
-        <div class="container grid grid--2-cols margin-bottom-md">
-          <div class="pricing-plan pricing-plan--starter">
-            <header class="plan-header">
-              <p class="plan-name">Starter</p>
-              <p class="plan-price"><span>$</span>399</p>
-              <p class="plan-text">per month. That's just $13 per meal!</p>
-            </header>
-            <ul class="list">
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>1 meal per day</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Order from 11am to 9pm</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Delivery is free</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="close-outline"></ion-icon>
-              </li>
-            </ul>
-            <div class="plan-sing-up">
-              <a href="#" class="btn btn--full">Start eating well</a>
+          <div class="menu grid grid--2-cols">
+            <div class="drink">
+                <h2 class="menu-list-title">Đồ uống</h2>
+                <ul>
+                  <li class="item"><span class="name">Nước ngọt</span>
+                    <span class="price">15</span>
+                  </li>
+                  <li class="item"><span class="name">Bia</span>
+                    <span class="price">25</span>
+                  </li>
+                  <li class="item"><span class="name">Rượu</span>
+                    <span class="price">40</span>
+                  </li>
+                </ul>
             </div>
-          </div>
-
-          <div class="pricing-plan pricing-plan--complete">
-            <header class="plan-header">
-              <p class="plan-name">Complete</p>
-              <p class="plan-price"><span>$</span>649</p>
-              <p class="plan-text">per month. That's just $11 per meal!</p>
-            </header>
-            <ul class="list">
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span><strong>2 meals</strong> per day</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Order <strong>24/7</strong></span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Delivery is free</span>
-              </li>
-              <li class="list-item">
-                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-                <span>Get access to latest recipes</span>
-              </li>
-            </ul>
-            <div class="plan-sing-up">
-              <a href="#" class="btn btn--full">Start eating well</a>
+           <div class="sub-meal">
+                <h2 class="menu-list-title">Điểm tâm</h2>
+                <ul>
+                  <li class="item"><span class="name">Ngô chiên</span>
+                    <span class="price">180</span>
+                  </li>
+                  <li class="item"><span class="name">Khoai tây chiên</span>
+                    <span class="price">220</span>
+                  </li>
+                  <li class="item"><span class="name">Đồ tráng miệng</span>
+                    <span class="price">200</span>
+                  </li>
+                
+                </ul>
             </div>
-          </div>
-        </div>
+            <div class="fish-meal">
+                <h2 class="menu-list-title">Cá các loại</h2>
+                <ul>
+                  <li class="item"><span class="name">Cá tầm</span>
+                    <span class="price">550</span>
+                  </li>
+                  <li class="item"><span class="name">Cá hồi</span>
+                    <span class="price">800</span>
+                  </li>
+                  <li class="item"><span class="name">Cá chép giòn</span>
+                    <span class="price">380</span>
+                  </li>
+                    <li class="item"><span class="name">Cá lăng</span>
+                      <span class="price">350</span>
+                    </li>
+                    <li class="item"><span class="name">Cá trình</span>
+                      <span class="price">650</span>
+                    </li>
+                </ul>
 
-        <div class="container grid">
-          <aside class="plan-details">
-            Prices include all applicable taxes. You can cancel at any time.
-            Both plans include the following:
-          </aside>
-        </div>
+                  <div class="bird-meal">
+                    <h2 class="menu-list-title">Thịt chim các kiểu</h2>
+                    <ul>
+                      <li class="item"><span class="name">Gà rang rừng</span>
+                        <span class="price">135</span>
+                      </li>
+                      <li class="item"><span class="name">Vịt trời hấp xôi</span>
+                        <span class="price">220</span>
+                      </li>
+                      <li class="item"><span class="name">Chim câu quay</span>
+                        <span class="price">220</span>
+                      </li>
+                      <li class="item"><span class="name">Gà rang muối</span>
+                        <span class="price">200</span>
+                      </li>
 
-        <div class="container grid grid--4-cols">
-          <div class="feature">
-            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
-            <p class="feature-title">Never cook again!</p>
-            <p class="feature-text">
-              Our subscriptions cover 365 days per year, even including major
-              holidays.
-            </p>
+                    </ul>
+                  </div>
+              </div>
+                    <div class="beef-meal">
+                      <h2 class="menu-list-title">Trâu các món</h2>
+                      <ul>
+                        <li class="item"><span class="name">Trâu xào rau muống</span>
+                          <span class="price">135</span>
+                        </li>
+                        <li class="item"><span class="name">Trâu xào măng trúc</span>
+                          <span class="price">145</span>
+                        </li>
+                        <li class="item"><span class="name">Trâu xào lá lốt</span>
+                          <span class="price">135</span>
+                        </li>
+                        <li class="item"><span class="name">Trâu nướng xiên</span>
+                          <span class="price">155</span>
+                        </li>
+                        <li class="item"><span class="name">Trâu nướng tảng</span>
+                          <span class="price">155</span>
+                        </li>
+                        <li class="item"><span class="name">Lẩu trâu nhúng mẻ</span>
+                          <span class="price">600</span>
+                        </li>
+                      </ul>
+                    </div>
+                    
           </div>
-          <div class="feature">
-            <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
-            <p class="feature-title">Local and organic</p>
-            <p class="feature-text">
-              Our cooks only use local, fresh, and organic products to prepare
-              your meals.
-            </p>
-          </div>
-          <div class="feature">
-            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
-            <p class="feature-title">No waste</p>
-            <p class="feature-text">
-              All our partners only use reusable containers to package all your
-              meals.
-            </p>
-          </div>
-          <div class="feature">
-            <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
-            <p class="feature-title">Pause anytime</p>
-            <p class="feature-text">
-              Going on vacation? Just pause your subscription, and we refund
-              unused days.
-            </p>
-          </div>
+            <aside class="menu-details grid">
+              Tính theo tỷ giá nghìn đồng. Giá bên trên chưa bao gồm thuế VAT.
+            </aside>
+             
+              
         </div>
       </section>
-
+      <section class="section-location" id="location">
+       <div class="container">
+        <span class="subheading center-text">Hours and location</span>
+        <h2 class="heading-secondary center-text">
+        Thời gian và địa điểm
+        </h2>
+        <a href="https://www.google.com/maps/place/Nh%C3%A0+H%C3%A0ng+N%C3%A0ng+%C4%90%E1%BB%91p/@21.395397,105.6153783,17z/data=!3m1!4b1!4m5!3m4!1s0x3134e5b25952afe7:0xb0983b9f481c4c80!8m2!3d21.395397!4d105.617567?hl=vi" class="address margin-bottom-md">Quốc lộ 2B, Hợp Châu<br>
+         Tam Đảo Vĩnh Phúc</a>
+        <p class="time-text margin-bottom-md">8h sáng tới 10h tối. <br>
+          Mọi ngày trong tuần</p>
+      
+       </div>
+        <div class="location-img">
+      
+        </div>
+      
+    </section>
       <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
-              <h2 class="heading-secondary">Get your first meal for free!</h2>
+              <h2 class="heading-secondary">Đặt bàn ngay và luôn!</h2>
               <p class="cta-text">
                 Healthy, tasty and hassle-free meals are waiting for you. Start
                 eating well today. You can cancel or pause anytime. And the
@@ -609,7 +626,7 @@
 
               <form class="cta-form" name="sign-up" netlify>
                 <div>
-                  <label for="full-name">Full Name</label>
+                  <label for="full-name">Họ và tên</label>
                   <input
                     id="full-name"
                     type="text"
@@ -620,18 +637,18 @@
                 </div>
 
                 <div>
-                  <label for="email">Email address</label>
+                  <label for="email">Số điện thoại</label>
                   <input
-                    id="email"
-                    type="email"
-                    placeholder="me@example.com"
-                    name="email"
+                    id="number"
+                    type="number"
+                    placeholder="098765412"
+                    name="number"
                     required
                   />
                 </div>
 
                 <div>
-                  <label for="select-where">Where did you hear from us?</label>
+                  <label for="select-where">Làm cách nào bạn biết tới chúng tôi?</label>
                   <select id="select-where" name="select-where" required>
                     <option value="">Please choose one option:</option>
                     <option value="friends">Friends and family</option>
@@ -642,7 +659,7 @@
                   </select>
                 </div>
 
-                <button class="btn btn--form">Sign up now</button>
+                <button class="btn btn--form">Đặt Bàn</button>
 
                 <!-- <input type="checkbox" />
                 <input type="number" /> -->
@@ -661,8 +678,8 @@
     <footer class="footer">
       <div class="container grid grid--footer">
         <div class="logo-col">
-          <a href="#" class="footer-logo">
-            <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+          <a href="#" class="restaurant-icon footer-logo">
+            Nàng Đốp
           </a>
 
           <ul class="social-links">
@@ -684,7 +701,7 @@
           </ul>
 
           <p class="copyright">
-            Copyright &copy; <span class="year">2027</span> by SushiAhihi, Inc.
+            Copyright &copy; <span class="year">2027</span> by NangDop, Inc.
             All rights reserved.
           </p>
         </div>
@@ -693,13 +710,14 @@
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
             <p class="address">
-              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+              Quốc lộ 2B, Hợp Châu
+              Tam Đảo Vĩnh Phúc
             </p>
             <p>
               <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
               ><br />
               <a class="footer-link" href="mailto:hello@omnifood.com"
-                >hello@omnifood.com</a
+                >hello@nangdop.com</a
               >
             </p>
           </address>

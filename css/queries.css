@@ -120,7 +120,9 @@
   .btn--form {
     margin-top: 1.2rem;
   }
-
+  .section-menu {
+    width: 90rem;
+  }
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
@@ -231,6 +233,12 @@
     flex-direction: column;
     align-items: center;
   }
+  .section-menu {
+    width: 80rem;
+  }
+  .location-img {
+    height: 50vh;
+  }
 }
 
 /**************************/
@@ -302,6 +310,9 @@
   .cta-img-box {
     height: 32rem;
     grid-row: 1;
+  }
+  .section-menu {
+    width: 60rem;
   }
 }
 
