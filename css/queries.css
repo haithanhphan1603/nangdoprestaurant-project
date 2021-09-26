@@ -121,7 +121,7 @@
     margin-top: 1.2rem;
   }
   .section-menu {
-    width: 80%;
+    width: 90%;
   }
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
@@ -234,7 +234,7 @@
     align-items: center;
   }
   .section-menu {
-    width: 80%;
+    width: 90%;
   }
   .location-img {
     height: 50vh;
@@ -312,7 +312,7 @@
     grid-row: 1;
   }
   .section-menu {
-    width: 80%;
+    width: 90%;
   }
 }
 
