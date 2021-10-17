@@ -686,3 +686,93 @@
   line-height: 1.6;
   text-align: center;
 }
+/**************************/
+/* Restaurant views */
+/**************************/
+/* Slideshow container */
+.space-container {
+  width: 80%;
+  margin: auto;
+  padding: 9.6rem 0;
+}
+.slideshow-container {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+
+  position: relative;
+
+  border: 5px solid #ffa8a8;
+  max-width: 120rem;
+
+  width: 100%;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 3rem;
+  padding: 0.8rem 1.2rem;
+  position: absolute;
+  bottom: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 0.2rem;
+  background-color: #ffa8a8;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.mySlides {
+  display: none;
+}
+.active {
+  background-color: rgb(255, 107, 107);
+}
+.restaurant-img {
+  vertical-align: middle;
+  object-fit: fill;
+  height: 80vh;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 2.1rem;
+  }
+  .restaurant-img {
+    vertical-align: middle;
+    object-fit: fill;
+    height: 40rem;
+  }
+}
