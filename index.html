@@ -468,42 +468,33 @@
           </figure>
         </div>
       </section>
-
-
-     <section class="section-space" id="space">
-          <section class="space-container">
-            <span class="subheading">Restaurant views</span>
-            <h2 class="heading-secondary">Không gian nhà hàng</h2>
-            <div class="slideshow-container">
-            
-              <div class="mySlides fade">
-             
-                <img class="restaurant-img"src="/img/views/restaurant-1.JPG" style="width:100%">
-                <div class="text">Kiến trúc nhà hàng </div>
-              </div>
-            
-              <div class="mySlides fade">
+      
+      <section class="section-space">
+          <div class="space-title">
+            <span class="subheading space-text">Restaurant views</span>
+            <h2 class="heading-secondary space-heading">Không gian nhà hàng</h2>
+          </div>
+      <div class="space-holder">
+    
+          <div class="space-container">
          
-                <img class="restaurant-img" src="/img/views/restaurant-2.JPG" style="width:100%">
-                <div class="text">Không gian bên trong nhà hàng thoáng mát sạch sẽ</div>
-              </div>
-            
-              <div class="mySlides fade">
-        
-                <img class="restaurant-img" src="/img/views/restaurant-3.JPG" style="width:100%">
-                <div class="text">Nhà hàng thường đông khách vào những ngày lễ</div>
-              </div>
-            
+            <div class="image-container">
+              <img class="space-img active" src="./img/views/restaurant-1.JPG" id="content1" >
+              <img class="space-img" src="/img/views/restaurant-2.JPG" id="content2">
+              <img class="space-img" src="/img/views/restaurant-3.JPG" id="content3">
+          
             </div>
-            <br>
-            
-            <div style="text-align:center">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
+            <div class="dot-container">
+              <button onclick="dot(1)"></button>
+              <button onclick="dot(2)"></button>
+              <button onclick="dot(3)"></button>
+           
             </div>
-          </section>
-
+            <button id="prev" onclick="prev()"> &lt; </button>
+            <button id="next" onclick="next()"> &gt; </button>
+          </div>
+    </div>
+    </section>
      <section class="section-menu container" id="menu">
         <div class="main-menu">
           <span class="subheading center-text">Menu</span>

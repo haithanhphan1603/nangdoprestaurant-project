@@ -236,6 +236,9 @@
   .section-menu {
     width: 90%;
   }
+  .space-holder {
+    height: 60rem;
+  }
 }
 
 /**************************/
@@ -310,6 +313,9 @@
   }
   .section-menu {
     width: 90%;
+  }
+  .space-holder {
+    height: 50rem;
   }
 }
 
