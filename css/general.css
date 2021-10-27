@@ -269,10 +269,10 @@ body {
 }
 
 *:focus {
-  outline: none;
+  /* outline: none; */
   /* outline: 4px dotted #ff6b6b; */
   /* outline-offset: 8px; */
-  box-shadow: 0 0 0 0.8rem rgba(230, 47, 34, 0.397);
+  color: rgba(230, 47, 34, 0.397);
 }
 
 /* HELPER/SETTINGS CLASSES */
